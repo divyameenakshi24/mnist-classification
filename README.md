@@ -50,6 +50,7 @@ Predict  the output for the given handwritten input.
 
 
 ## PROGRAM
+```python3
 
 
 import numpy as np
@@ -122,6 +123,7 @@ x_single_prediction = np.argmax(
     model.predict(img_28_gray_inverted_scaled.reshape(1,28,28,1)),
      axis=1)
 print(x_single_prediction)
+```
 
 ## OUTPUT
 
